@@ -1,0 +1,15 @@
+{
+    "zh_CN":{
+        "Add Section Shader": "添加截面着色器",
+        "Add a bound section shader to all selected objects":
+            "为所有选中的物体添加已绑定的截面着色器",
+
+        "Initalize (Add a section tool)": "初始化（增加一个截面工具）",
+        "Initialize and add a section tool": "初始化并添加一个截面工具",
+
+        "Tab Category": "标签页名称",
+        "Customize the category of the addon panel": "自定义标签页名称",
+
+        "Section Plane 1.0.0": "截平面 1.0.0"
+    }
+}
