@@ -16,7 +16,7 @@ class SectionPanel(bpy.types.Panel):
     bl_space_type = 'VIEW_3D'
     bl_region_type = 'UI'
     bl_category = default_tab_category
-    bl_label = "Section Plane 1.0.0"
+    bl_label = "Section Plane"
 
     @classmethod
     def update_tab_category(cls):
