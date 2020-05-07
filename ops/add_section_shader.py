@@ -7,10 +7,9 @@ from ..global_variables import (
 )
 
 class AddSectionShaderOperator(bpy.types.Operator):
-    """ Add a bound section shader to all selected objects """
+    """Add a bound section shader to all selected objects"""
     bl_idname = "object.add_section_shader"
     bl_label = "Add Section Shader"
-    bl_description = "Add a bound section shader to all selected objects"
 
     def execute(self, context):
         sp_default_material = bpy.data.materials[section_material_name]

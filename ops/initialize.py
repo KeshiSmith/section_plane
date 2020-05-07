@@ -8,10 +8,9 @@ from ..global_variables import(
 )
 
 class InitializeOperator(bpy.types.Operator):
-    """ Initialize and add a section tool """
+    """Initialize and add a section tool"""
     bl_idname = "object.section_plane_initialize"
     bl_label = "Initalize (Add a section tool)"
-    bl_description = "Initialize and add a section tool"
 
     def execute(self, context):
         # load section data

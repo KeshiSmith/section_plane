@@ -34,13 +34,7 @@ class SectionPanel(bpy.types.Panel):
         # initialize button
         row = layout.row()
         row.active = section_collection_name not in bpy.data.collections.keys()
-        row.operator(
-            InitializeOperator.bl_idname,
-            text=iface(InitializeOperator.bl_label)
-        )
+        row.operator(InitializeOperator.bl_idname)
         # other operators
         if section_collection_name in bpy.data.collections.keys():
-            layout.operator(
-                AddSectionShaderOperator.bl_idname,
-                text = iface(AddSectionShaderOperator.bl_label)
-            )
+            layout.operator(AddSectionShaderOperator.bl_idname)

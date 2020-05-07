@@ -14,7 +14,8 @@ def load_i18n_dict():
         locale_i18n_dict = {}
         locale_i18n_dict_tmp = i18n_dict_tmp[locale]
         for msgid in locale_i18n_dict_tmp:
-            locale_i18n_dict[('*', msgid)] = locale_i18n_dict_tmp[msgid]
+            msgctxt, translation = locale_i18n_dict_tmp[msgid]
+            locale_i18n_dict[(msgctxt, msgid)] = translation
         i18n_dict[locale] = locale_i18n_dict
     return i18n_dict
 
