@@ -16,7 +16,7 @@ bl_info = {
     "author" : "Keshi Smith",
     "description" : "A blender addon for quickly achieving the cross-sectional effect.",
     "blender" : (2, 80, 0),
-    "version" : (0, 1, 0),
+    "version" : (0, 1, 1),
     "location" : "View3D > Sidebar > Section Tab",
     "warning" : "",
     "category" : "Object"
